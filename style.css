@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+
+}
+
+
+.hero-container{
+    max-width: 1440px;
+    height: 669px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+    
+   
+   
+}
+
+.hero-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 156px;
+    margin-top: 121px;
+    margin-bottom: 120px;
+    width: 524px;
+    
+}
+
+.hero-content h1{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    width: 471px;
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.hero-content button{
+    border-radius: 5px;
+    background: rgb(255, 89, 89);
+    padding: 5px 15px 5px 15px;
+    color: white;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+.hero-image{
+    width: 490px;
+    height: 550px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+
+.hero-image img{
+    width: 100%;
+    height: 100%;
+}
