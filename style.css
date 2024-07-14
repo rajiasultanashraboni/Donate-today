@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     
    
    
@@ -77,7 +77,7 @@ body{
 
 .hero-image{
     width: 490px;
-    height: 550px;
+    height: 500px;
     margin-right: 200px;
     display: flex;
     justify-content: center;
@@ -89,4 +89,262 @@ body{
 .hero-image img{
     width: 100%;
     height: 100%;
+}
+
+.hero-button img{
+    color: rgb(112, 112, 112);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.hero-button{
+    display: flex;
+    gap: 30px;
+}
+
+/* donate container starts here */
+
+.donate-container{
+    margin-bottom: 50px;
+}
+
+.donate-content h1{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.donate-content p{
+    width: 691px;
+    margin: 0 auto;
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.donate-price{
+    width: 691px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    
+    
+    
+}
+
+.donate-price h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 70px;
+    border-radius: 5px;
+    background: rgb(250, 250, 250);
+    color: rgb(112, 112, 112);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.donate-price .price{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 89, 89);
+    border-radius: 5px;
+    background: rgb(255, 238, 238);
+    color: rgb(255, 89, 89);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero section */
+
+@media (max-width: 1024px) {
+    .hero-container {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 80px;
+    }
+
+    .hero-content {
+        margin: 50px 20px;
+        width: auto;
+    }
+
+    .hero-content p {
+        width: auto;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero-content button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-button {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content {
+        margin: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .hero-content button {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-button {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* donate section */
+
+@media (max-width: 1024px) {
+    .donate-content p {
+        width: 90%;
+    }
+
+    .donate-price {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .donate-content h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .donate-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .donate-price {
+        gap: 15px;
+    }
+
+    .donate-price h3, .donate-price .price {
+        width: 120px;
+        height: 60px;
+        font-size: 14px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .donate-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .donate-content p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 30px;
+    }
+
+    .donate-price h3, .donate-price .price {
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
+        line-height: 28px;
+    }
 }
